@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*style  for index.html*/
+
+body{
+    background: url(image.jpg) no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+}
+
+header{
+    margin-bottom: 350px;
+    margin-right: 300px;
+    font-size: 50px;
+    font-weight: bold;
+    animation-name: ani;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+@keyframes ani{
+
+    from{
+        color: whitesmoke;
+    }
+
+    to{
+        color:  rgb(235, 37, 235);
+    }
+}
+
+.container{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background:rgba(224, 224, 230, 0.5);
+    border: 5px;
+    border-radius:10px ;
+    -webkit-border-radius:10px ;
+    -moz-border-radius:10px ;
+    -ms-border-radius:10px ;
+    -o-border-radius:10px ;
+}
+
+.label{
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 0 .5rem 0;
+    font-weight: bold;
+    color: #0b0829;
+}
+
+.login_form{
+    padding: 20px 40px;
+}
+
+.login_form.font{
+    font-size: 1.5rem;
+    color: #d9e2dba4;
+    margin: 50px 10px;
+}
+
+.login_form input{
+    height: 40px;
+    width: 350px;
+    margin-top: 5PX;
+    margin-bottom: 7px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.login_form.font2{
+    margin-top: 30px;
+}
+
+.login_form button{
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background:#1A237E;
+    border-radius: 5px;
+    border: 1px solid #3949AB;
+    transition: 0.5s;
+}
+
+.login_form button:hover{
+    background: #4a56e2;
+}
+
+.login_form #name_error,
+.login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #C62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+}
+
+/*style for home.html  */
+
+p{
+    margin-bottom: 300px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bolder;
+    animation-name: animan;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+}
+
+@keyframes animan{
+
+from{
+    color: yellow;
+    left: 100px;
+}
+
+to{
+    color:  rgb(231, 215, 231);
+    left: 150px;
+}
+}
+
+.container2{
+    position: relative;
+    margin-top: 250px;
+    margin-right: 150px;
+    width: 450px;
+    height: auto;
+    background:rgba(224, 224, 230, 0.5);
+    border: 5px;
+    border-radius:10px ;
+}
+
+.label2{
+    padding: 5px 150px;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+ h2{
+    padding: 2px 130px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+button.createuser{
+    margin: 80px 0 10px 35px;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background:#1A237E ;
+    border-radius: 3px;
+    border: 1px solid #3949AB ;
+    transition: 0.5;
+    
+}
+
+button.createuser:hover{
+    background: #4a56e2 ;
+}
+
+
+button.logout{
+    margin: 20px 0 40px 35px;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background:#1A237E;
+    border: 1px solid #3949AB ;
+    transition: 0.5;
+}
+
+button.logout:hover{
+    background: #4a56e2;
+}
+
+/* style for home2.html */
+
+
+
+
+
+.container3{
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background:rgba(224, 224, 230, 0.5);
+    border: 5px;
+    border-radius:10px ;
+}
+
+.signup_form{
+    padding: 20px 40px;
+}
+
+.signup_form.font{
+    font-size:20px;
+    color: #130f40;
+    margin: 50px 10px;
+}
+
+.signup_form input{
+    height: 40px;
+    width: 350px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 3px;
+}
+
+
+.signup_form.font2{
+    margin-top: 30px;
+}
+
+
+.signup_form button.create{
+    margin: 45px 0 15px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background:#1A237E ;
+    border-radius: 5px;
+    border: 1px solid #3949AB ;
+    transition: 0.5;
+    
+}
+
+.signup_form button.create:hover{
+    background: #4a56e2;
+}
+
+.signup_form button.logout{
+    margin: 15px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    background:#1A237E;
+    border-radius: 5px;
+    border: 1pX solid #3949AB ;
+    transition: 0.5;
+}
+
+.signup_form button.logout:hover{
+    background:#4a56e2;
+}
+

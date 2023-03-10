@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Signup</header>
+    <div class="container3">
+        <h1 class="label2">test name</h1>
+        <form class="signup_form" name="form" action="http://127.0.0.1:5500/home.html">
+            <div class="font">User Name</div>
+            <input type="text" id="cuname" name="username" placeholder="create user name"/>
+            <div class="font font2">Password</div>
+            <input type="password" id="cpsd" name="password" placeholder="create password"/>
+            <button onclick="make(); passvalues();" class="create" type="submit">Create</button>
+        </form>
+        <div class="signup_form">
+            <button onclick="lgout();" class="logout" type="submit">Logout</button>
+        </div>
+    </div>
+    
+    <!--link js file-->
+   <script src="index.js"></script>
+
+</body>
+</html>
